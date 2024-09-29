@@ -1,4 +1,4 @@
-public class Celular {
+public class Notebook {
     private String modelo;
     private String marca;
     private int ano;
@@ -54,7 +54,7 @@ public class Celular {
     }
 
     public void instalarAplicativo(String nomeApp) {
-        System.out.println("Instalando o aplicativo " + nomeApp + " no celular.");
+        System.out.println("Instalando o aplicativo " + nomeApp + " no Notebook.");
     }
 
     public String getModelo() {
